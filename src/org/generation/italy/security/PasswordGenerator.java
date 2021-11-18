@@ -1,5 +1,6 @@
 package org.generation.italy.security;
 
+
 public class PasswordGenerator {
 
 	public static void main(String[] args) {
@@ -13,13 +14,13 @@ public class PasswordGenerator {
 		int month = 07;
 		int year = 1997;
 		
+		System.out.print("Type your first name: ");
 		// Esecuzione e stampa
 		
 		int somma = (day + month + year);
 		String password = (name + "-" + lastName + "-" + color + "-" + somma);
 		System.out.println(password);
 		
-
 	}
 
 }
